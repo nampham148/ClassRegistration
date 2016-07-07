@@ -1,0 +1,146 @@
+body{
+  background-image: url("./images/Background.jpg");
+}
+
+body input{
+  border-radius: 4px;
+  height: 20px;
+}
+
+.form_title{
+  position: relative;
+  top: 50px;
+  width: 924px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.form_title hr{
+  margin: 10px 20px;
+  width: 200px;
+  height: 2px;
+  background-color: white;
+  display: inline-block;;
+}
+
+.form_title p{
+  font-size: 150%;
+  display: inline-block;
+}
+
+.form_body{
+  position: relative;
+  top: 100px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #00FFFF;
+  border-radius: 10px;
+}
+
+.form_body form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_body input[type="text"]::-webkit-input-placeholder{
+  font-style: italic;
+  font-size: 115%
+}
+
+.PersonalInfo{
+  margin-top: 15px;
+  width: 710px;
+}
+
+.PersonalInfo input{
+  margin: 30px 30px;
+}
+
+.ClassChoice{
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.ClassChoice>input{
+  width:550px;
+  margin: 10px 25px;
+}
+
+.ClassChoice div{
+  width:550px;
+  margin: 10px 25px;
+  padding-bottom: 10px;
+}
+
+.submit_button{
+  width: 300px;
+  height: 40px;
+  margin: 10px 225px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  border-color: orange;
+}
+
+.form_body input[type=checkbox]{
+  display: None;
+}
+
+.form_body label{
+  cursor: pointer;
+}
+
+.form_body label:before {
+    content: "";
+    display: inline-block;
+
+    width: 16px;
+    height: 16px;
+
+    margin-right: 10px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+
+.form_body input[type="checkbox"]:checked + label:before {
+  content: "\2714";
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.first_row label[for=ioscheckbox]{
+  margin-left: 0px;
+}
+
+.first_row label{
+  margin-left: 140px;
+}
+
+.second_row label[for=C4Echeckbox]{
+  margin-left: 191px;
+}
+
+.more_info{
+  width: 355px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.more_info label{
+  color: white;
+}
+
+.more_info label:before{
+  background: None;
+  border-color: white;
+}
+
+.more_info input[id="moreinfo"]:checked + label:before{
+  color: white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="form_title">
+      <hr/>
+      <p> ĐĂNG KÝ NHẬN CHƯƠNG TRÌNH HỌC </p>
+      <hr/>
+    </div>
+    <div class="form_body">
+      <form class="PersonalInfo" action="index.html" method="post">
+        <input type="text" placeholder="Họ và tên">
+        <input type="text" placeholder="Số điện thoại">
+        <input type="text" placeholder="Email">
+      </form>
+      <form class="ClassChoice" action="index.html" method="post">
+          <input type="text" placeholder="Bạn muốn đăng kí nhận chương trình học nào?">
+        <div class="first_row">
+            <input id="ioscheckbox" type="checkbox"> <label for="ioscheckbox">iOS</label>
+            <input type="checkbox" id="androidcheckbox" class="first_row_checkbox">
+              <label for="androidcheckbox"> Android </label>
+            <input type="checkbox" id="webcheckbox" class="first_row_checkbox">
+              <label for="webcheckbox">Full-stack web</label>
+        </div>
+        <div class="second_row">
+          <input id="C4Kcheckbox" type="checkbox">
+            <label for="C4Kcheckbox"> Code for kids (C4K)</label>
+          <input id="C4Echeckbox" type="checkbox" class="second_row_checkbox">
+            <label for="C4Echeckbox">Code for everyone (C4E)</label>
+        </div>
+      </form>
+      <form class="more_info">
+        <input id="moreinfo" type="checkbox"><label for="moreinfo" class="more_info_text">
+          Bạn có muốn nhận tư vấn về các khóa học không?
+          </label>
+        </input>
+      </form>
+      <button class="submit_button"> NHẬN CHƯƠNG TRÌNH HỌC </button>
+    </div>
+  </body>
+</html>
