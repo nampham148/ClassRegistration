@@ -3,7 +3,7 @@ body{
 }
 
 body input{
-  border-radius: 4px;
+  border-radius: 8px;
   height: 20px;
 }
 
@@ -64,14 +64,16 @@ body input{
   border-radius: 10px;
 }
 
-.ClassChoice>input{
-  width:550px;
-  margin: 10px 25px;
+.ClassChoice>p{
+  padding: 20px 25px;
+  margin: 0px;
+  font-style: italic;
 }
 
 .ClassChoice div{
   width:550px;
-  margin: 10px 25px;
+  margin-left: 25px;
+  margin-right: 25px;
   padding-bottom: 10px;
 }
 
@@ -96,10 +98,8 @@ body input{
 .form_body label:before {
     content: "";
     display: inline-block;
-
     width: 16px;
     height: 16px;
-
     margin-right: 10px;
     background-color: white;
     border: solid 1px black;
@@ -109,7 +109,7 @@ body input{
 .form_body input[type="checkbox"]:checked + label:before {
   content: "\2714";
   color: black;
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
   line-height: 18px;
 }
@@ -128,8 +128,7 @@ body input{
 
 .more_info{
   width: 355px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
 }
 
 .more_info label{
