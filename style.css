@@ -1,5 +1,42 @@
 body{
   background-image: url("./images/Background.jpg");
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.form_title{
+  position: relative;
+  top: 55px;
+  width: 1060px;
+  margin: 0px auto 40px;
+  color: white;
+}
+
+.form_title hr{
+  position: relative;
+  bottom: 8px;
+  margin: 0px 30px;
+  width: 285px;
+  height: 2px;
+  background-color: white;
+  display: inline-block;;
+}
+
+.form_title p{
+  margin: 0px 0px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.form_body{
+  position: relative;
+  top: 50px;
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #00FFFF;
+  border-radius: 10px;
 }
 
 body input{
@@ -7,84 +44,60 @@ body input{
   height: 20px;
 }
 
-.form_title{
-  position: relative;
-  top: 50px;
-  width: 924px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-}
-
-.form_title hr{
-  margin: 10px 20px;
-  width: 200px;
-  height: 2px;
-  background-color: white;
-  display: inline-block;;
-}
-
-.form_title p{
-  font-size: 150%;
-  display: inline-block;
-}
-
-.form_body{
-  position: relative;
-  top: 100px;
-  width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid 2px #00FFFF;
-  border-radius: 10px;
-}
-
-.form_body form{
+.form_body>div{
   margin-left: auto;
   margin-right: auto;
 }
 
-.form_body input[type="text"]::-webkit-input-placeholder{
+.form_body input[type="text"]{
+  font-size: 15px;
   font-style: italic;
-  font-size: 115%
 }
 
 .PersonalInfo{
-  margin-top: 15px;
-  width: 710px;
+  margin-top: 35px;
+  margin-bottom: 24px;
+  width: 770px;
+}
+
+.PersonalInfo input[placeholder="Số điện thoại"]{
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .PersonalInfo input{
-  margin: 30px 30px;
+  width: 180px;
+  padding: 10px 20px;
 }
 
 .ClassChoice{
-  width: 600px;
+  width: 535px;
   background-color: white;
   border-radius: 10px;
 }
 
 .ClassChoice>p{
-  padding: 20px 25px;
+  padding: 15px 25px 20px;
   margin: 0px;
   font-style: italic;
+  font-size: 15px;
 }
 
 .ClassChoice div{
-  width:550px;
+  width:475px;
   margin-left: 25px;
-  margin-right: 25px;
-  padding-bottom: 10px;
+  padding-bottom: 18px;
 }
 
 .submit_button{
-  width: 300px;
-  height: 40px;
-  margin: 10px 225px;
-  background-color: orange;
+  width: 295px;
+  height: 45px;
+  margin: 5px 270px 35px;
+  background-color: #ff803d;
   color: white;
   border-radius: 10px;
-  border-color: orange;
+  border-color: #ff803d;
+  font-size: 16px;
 }
 
 .form_body input[type=checkbox]{
@@ -92,15 +105,16 @@ body input{
 }
 
 .form_body label{
+  font-size: 15px;
   cursor: pointer;
 }
 
 .form_body label:before {
     content: "";
     display: inline-block;
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
     background-color: white;
     border: solid 1px black;
     border-radius: 3px;
@@ -109,26 +123,25 @@ body input{
 .form_body input[type="checkbox"]:checked + label:before {
   content: "\2714";
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   line-height: 18px;
 }
 
-.first_row label[for=ioscheckbox]{
-  margin-left: 0px;
+.first_row label[for="androidcheckbox"]{
+  margin-left: 125px;
 }
 
-.first_row label{
-  margin-left: 140px;
+.first_row label[for="webcheckbox"]{
+  margin-left: 90px;
 }
-
 .second_row label[for=C4Echeckbox]{
-  margin-left: 191px;
+  margin-left: 120px;
 }
 
 .more_info{
-  width: 355px;
-  margin: 10px auto;
+  width: 445px;
+  margin: 20px 195px;
 }
 
 .more_info label{

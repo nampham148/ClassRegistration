@@ -2,8 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <title></title>
+
   </head>
   <body>
     <div class="form_title">
@@ -11,13 +14,13 @@
       <p> ĐĂNG KÝ NHẬN CHƯƠNG TRÌNH HỌC </p>
       <hr/>
     </div>
-    <div class="form_body">
-      <form class="PersonalInfo" action="index.html" method="post">
+    <form class="form_body">
+      <div class="PersonalInfo" action="index.html" method="post">
         <input type="text" placeholder="Họ và tên">
         <input type="text" placeholder="Số điện thoại">
         <input type="text" placeholder="Email">
-      </form>
-      <form class="ClassChoice" action="index.html" method="post">
+      </div>
+      <div class="ClassChoice" action="index.html" method="post">
         <p>
           Bạn muốn đăng ký nhận chương trình học nào?
         </p>
@@ -34,14 +37,14 @@
           <input id="C4Echeckbox" type="checkbox" class="second_row_checkbox">
             <label for="C4Echeckbox">Code for everyone (C4E)</label>
         </div>
-      </form>
-      <form class="more_info">
+      </div>
+      <div class="more_info">
         <input id="moreinfo" type="checkbox"><label for="moreinfo" class="more_info_text">
           Bạn có muốn nhận tư vấn về các khóa học không?
           </label>
         </input>
-      </form>
+      </div>
       <button class="submit_button"> NHẬN CHƯƠNG TRÌNH HỌC </button>
-    </div>
+    </form>
   </body>
 </html>
